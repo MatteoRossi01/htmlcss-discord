@@ -126,11 +126,17 @@ html {
 }
 /* jumbotron */
 
-/* Sezione 1 */
-.sezione-1 {
+/* Gestione Sezioni */
+.sezione-white {
     width: 100%;
     height: 600px;
     background-color: #fff;
+}
+
+.sezione-gray {
+    width: 100%;
+    height: 600px;
+    background-color: #dedede;
 }
 
 .content {
@@ -139,14 +145,15 @@ html {
     margin: auto;
 }
 
-.content-img {
+/* Gestione sezioni bianche */
+.content-img-white {
     display: block;
     float: left;
     height: 420px;
     margin-top: 50px;
 }
 
-.content .content-title {
+.content .content-title-white {
     display: block;
     width: 25%;
     float: right;
@@ -156,12 +163,42 @@ html {
     margin-top: 135px;
 }
 
-.content .content-text {
+.content .content-text-white {
     display: block;
     width: 25%;
     float: right;
-    margin-right: 60px;
-    margin-top: 10px;
     line-height: 25px;
+    margin-right: 60px;
+    margin-top: 15px;
 }
-/* Sezione 1 */
+/* Gestione sezioni bianche */
+
+/* Gestione sezioni grigie */
+.content-img-gray {
+    display: block;
+    float: right;
+    height: 420px;
+    margin-top: 50px;
+}
+
+.content .content-title-gray {
+    display: block;
+    width: 25%;
+    float: left;
+    font-size: 25px;
+    line-height: 55px;
+    margin-left: 60px;
+    margin-top: 135px;
+}
+
+.content .content-text-gray {
+    display: block;
+    width: 25%;
+    float: left;
+    line-height: 25px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+/* Gestione sezioni grigie */
+
+/* Gestione sezioni */
