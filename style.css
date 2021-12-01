@@ -8,13 +8,22 @@ html {
     font-family:  Helvetica, sans-serif;
 }
 
+.white {
+    background-color: #fff;
+    color: #000;
+}
+
+.lilla {
+    background-color: #787adb;
+    color: #fff;
+}
+
 .btn {
     border: 0px solid;
     border-radius: 40px;
-    background-color: #fff;
-    color: #000;
     text-decoration: none;
     padding: 6px 12px;
+    font-size: 13px
 }
 
 /* Header */
@@ -32,7 +41,7 @@ html {
     font-size: 14px;
 }
 
-.intestazione .logo {
+.logo {
     float: left;
     margin-top: 20px;
     height: 80px;
@@ -57,7 +66,7 @@ html {
     text-decoration: none;
 }
 
-#login {
+.login {
     margin-top: 30px;
     float: right;
     margin-right: 0px;
@@ -117,7 +126,7 @@ html {
 }
 
 .jumbotron .banner .black {
-    background-color: #000;
+    background-color: #29282a;
     color: #fff;
 }
 
@@ -251,7 +260,7 @@ html {
     text-align: center;
     margin-top: 50px;
     margin-left: 40%;
-    background-color: #b8a8cd;
+    background-color: #787adb;
     color: #fff;
     border: 0px solid;
     border-radius: 40px;
@@ -259,8 +268,82 @@ html {
     text-decoration: none;
     padding: 12px 18px;
 }
-
-
 /* Gestione sezione finale */
 
-/* Gestione sezioni */
+/* Fine Gestione sezioni */
+
+/* Gestione footer */
+footer {
+    background-color: #29282a;
+}
+
+.footer-section {
+    margin: auto;
+    width: 100%;
+    height: 450px;
+    background-color: #29282a;
+    width: 80%;
+}
+
+.box-1 {
+    width: 25%;
+    height: 200px;
+    float: left;
+    margin-top: 60px;
+    margin-right: 100px;
+    padding: 0px 20px;
+}
+
+.box {
+    height: 200px;
+    width: 15%;
+    float: left;
+    margin-top: 60px;
+    padding: 0px 20px;
+}
+
+.title-list-social {
+    display:inline-block;
+    font-weight: bold;
+    color: #787adb;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.title-list{
+    font-weight: bold;
+    color: #787adb;
+    line-height: 40px;
+    width: 50px;
+}
+
+
+.list, .list-1 {
+    display: block;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.list-1 {
+    text-decoration: none;
+}
+
+.fab {
+    margin-top: 20px;
+    margin-right: 25px;
+    color: #fff;
+}
+ 
+.intestazione-footer {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 80px;
+    background-color: #29282a;
+    margin-bottom: 0%;
+    border-top: 1px solid #787adb;
+}
+/* Fine gestione footer */
+
+
