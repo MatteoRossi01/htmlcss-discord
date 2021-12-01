@@ -102,7 +102,7 @@ html {
     margin-top: 30px;
 }
 
-.jumbotron .banner .btn-big {
+ .btn-big {
     border: 0px solid;
     border-radius: 40px;
     font-size: 14px;
@@ -127,13 +127,13 @@ html {
 /* jumbotron */
 
 /* Gestione Sezioni */
-.sezione-white {
+.section-white {
     width: 100%;
     height: 600px;
     background-color: #fff;
 }
 
-.sezione-gray {
+.section-gray {
     width: 100%;
     height: 600px;
     background-color: #dedede;
@@ -202,6 +202,64 @@ html {
 /* Gestione sezioni grigie */
 
 /* Gestione sezione finale */
+.last-section {
+    width: 100%;
+    height: 1000px;
+    background-color: #dedede;
+}
+
+.last-section .last-row {
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 1000px;
+}
+
+.last-row #last-title {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+.last-row .last-text-1{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.last-row .last-img {
+    display: block;
+    position: absolute;
+    left: 240px;
+}
+
+.last-row .img-2 {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 560px;
+}
+
+h2 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 27px;
+    margin-top: -20px;
+}
+
+ .btn-big-2 {
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40%;
+    background-color: #b8a8cd;
+    color: #fff;
+    border: 0px solid;
+    border-radius: 40px;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 12px 18px;
+}
 
 
 /* Gestione sezione finale */
