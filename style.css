@@ -215,7 +215,7 @@ html {
     height: 1000px;
 }
 
-.last-row #last-title {
+.last-row .last-title {
     text-align: center;
     font-size: 25px;
     padding-top: 100px;
@@ -240,9 +240,8 @@ html {
     margin-top: 560px;
 }
 
-h2 {
+#footer-title {
     text-align: center;
-    vertical-align: middle;
     font-size: 27px;
     margin-top: -20px;
 }
